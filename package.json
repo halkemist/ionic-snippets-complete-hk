@@ -40,5 +40,6 @@
     "mobile"
   ],
   "pricing": "Free",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true
 }
