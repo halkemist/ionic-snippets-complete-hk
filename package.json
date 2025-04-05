@@ -6,11 +6,18 @@
   "engines": {
     "vscode": "^1.99.0"
   },
+  "extensionDependencies": [
+    "vue.volar"
+  ],
   "categories": [
     "Snippets"
   ],
   "contributes": {
     "snippets": [
+      {
+        "language": "vue-html",
+        "path": "./snippets/snippets.code-snippets"
+      },
       {
         "language": "vue",
         "path": "./snippets/snippets.code-snippets"
@@ -41,5 +48,6 @@
   ],
   "pricing": "Free",
   "license": "MIT",
+  "publisher": "halkemist",
   "private": true
 }

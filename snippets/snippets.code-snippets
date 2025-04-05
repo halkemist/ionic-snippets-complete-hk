@@ -70,7 +70,7 @@
           "<ion-badge slot=\"${1:start}\">${2:11}</ion-badge>"
         ],
         "description": "Ionic Badge component for Vue"
-    },
+    }
 
     
 }
