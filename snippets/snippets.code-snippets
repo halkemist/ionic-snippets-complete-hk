@@ -16,18 +16,61 @@
             "<style scoped>",
             "</style>"
         ],
-        "description": "Ionic Vue page template"
+        "description": "Ionic Page Template for Vue"
     },
 
     "Ionic Vue Action Sheet": {
         "prefix": "ion-action-sheet",
         "body": [
-        "<ion-action-sheet",
-        "  trigger=\"${1:triggerId}\"", 
-        "  header=\"${2:Actions}\"",
-        "  :buttons=\"${3:actionButtons}\">",
-        "</ion-action-sheet>"
+            "<ion-action-sheet",
+            "  trigger=\"${1:triggerId}\"", 
+            "  header=\"${2:Actions}\"",
+            "  :buttons=\"${3:actionButtons}\">",
+            "</ion-action-sheet>"
         ],
         "description": "Ionic Action Sheet component for Vue"
-    }
+    },
+
+    "Ion Accordion": {
+        "prefix": "ion-accordion",
+        "body": [
+            "<ion-accordion",
+            "  value=\"${1:value}\">",
+            "</ion-accordion>"
+        ],
+        "description": "Ionic Accordeon component for Vue"
+    },
+
+    "Ion Accordion Group": {
+        "prefix": "ion-accordion-group",
+        "body": [
+            "<ion-accordion>",
+            "</ion-accordion>"
+        ],
+        "description": "Ionic Accordeon Group component for Vue"
+    },
+
+    "Ionic Vue Alert": {
+        "prefix": "ion-alert",
+        "body": [
+        "<ion-alert",
+        "  trigger=\"${1:triggerId}\"",
+        "  header=\"${2:A Short Title Is Best}\"",
+        "  sub-header=\"${3:A Sub Header Is Optional}\"",
+        "  message=\"${4:A message should be a short, complete sentence.}\"",
+        "  :buttons=\"${5:alertButtons}\">",
+        "</ion-alert>"
+        ],
+        "description": "Ionic Alert component for Vue"
+    },
+
+    "Ionic Vue Badge": {
+        "prefix": "ion-badge",
+        "body": [
+          "<ion-badge slot=\"${1:start}\">${2:11}</ion-badge>"
+        ],
+        "description": "Ionic Badge component for Vue"
+    },
+
+    
 }
