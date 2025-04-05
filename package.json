@@ -1,8 +1,8 @@
 {
-  "name": "ionic-snippets-complete-",
-  "displayName": "Ionic Snippets Complete",
-  "description": "Snippets for Ionic v8",
-  "version": "0.0.1",
+  "name": "ionic-snippets-complete-hk",
+  "displayName": "Ionic Snippets Complete VueJS",
+  "description": "Snippets for Ionic v8 using Vue",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -12,9 +12,33 @@
   "contributes": {
     "snippets": [
       {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
         "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halkemist/ionic-snippets-complete-hk"
+  },
+  "keyword": [
+    "ionic",
+    "vuejs",
+    "v8",
+    "mobile"
+  ],
+  "pricing": "Free",
+  "license": "MIT"
 }

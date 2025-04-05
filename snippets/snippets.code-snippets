@@ -1,1 +1,33 @@
-{}
+{
+    "Ionic Vue Page": {
+        "prefix": "ionic-vue-page",
+        "body": [
+            "<template>",
+            "  <ion-page>",
+            "    <ion-content>",
+            "    </ion-content>",
+            "  </ion-page>",
+            "</template>",
+            "",
+            "<script setup lang=\"js\">",
+            "import { IonPage, IonContent } from '@ionic/vue';",
+            "</script>",
+            "",
+            "<style scoped>",
+            "</style>"
+        ],
+        "description": "Ionic Vue page template"
+    },
+
+    "Ionic Vue Action Sheet": {
+        "prefix": "ion-action-sheet",
+        "body": [
+        "<ion-action-sheet",
+        "  trigger=\"${1:triggerId}\"", 
+        "  header=\"${2:Actions}\"",
+        "  :buttons=\"${3:actionButtons}\">",
+        "</ion-action-sheet>"
+        ],
+        "description": "Ionic Action Sheet component for Vue"
+    }
+}
